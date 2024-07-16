@@ -4,7 +4,7 @@
 
 Wallet App is a simple, user-friendly digital wallet application built with React and TypeScript. It provides basic functionalities for managing a digital wallet, including user registration, login, balance checking, deposits, and withdrawals.
 
-![Wallet Dashboard](./public/readme/dashboard.png)
+<img src="./public/readme/dashboard.png" width="600">
 
 ## Features
 
@@ -23,18 +23,22 @@ Wallet App is a simple, user-friendly digital wallet application built with Reac
 ## Screenshots
 
 ### Login Dialog
-![Login Dialog](./public/readme/login.png)
+<img src="./public/readme/login.png" width="300">
 
 ### Register Dialog
-![Register Dialog](./public/readme/register.png)
+<img src="./public/readme/register.png" width="300" alt="Register Dialog">
 
 ### Deposit Flow
-![Adding money](./public/readme/deposit/pre_deposit.png)
-![Added money](./public/readme/deposit/post_deposit.png)
+<div style="display: flex;">
+  <img src="./public/readme/deposit/pre_deposit.png" width="300" height="300" alt="Adding money">
+  <img src="./public/readme/deposit/post_deposit.png" width="300" height="300" alt="Added money">
+</div>
 
 ### Withdraw Flow
-![Withdrawing money](./public/readme/withdraw/pre_withdraw.png)
-![Money withdrawn](./public/readme/withdraw/post_withdraw.png)
+<div style="display: flex;">
+  <img src="./public/readme/withdraw/pre_withdraw.png" width="300" height="300" alt="Withdrawing money">
+  <img src="./public/readme/withdraw/post_withdraw.png" width="300" height="300" alt="Money withdrawn">
+</div>
 
 
 ## Technology Stack
