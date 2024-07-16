@@ -1,46 +1,53 @@
-# Getting Started with Create React App
+# Wallet App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+Wallet App is a simple, user-friendly digital wallet application built with React and TypeScript. It provides basic functionalities for managing a digital wallet, including user registration, login, balance checking, deposits, and withdrawals.
 
-In the project directory, you can run:
+![Wallet Dashboard](./public/readme/dashboard.png)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- User Registration
+- Secure Login
+- Balance Checking
+- Deposit Funds
+- Withdraw Funds
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Practical Use Cases
 
-### `npm test`
+1. **Personal Finance Management**: Users can keep track of their digital funds, making it easier to manage personal finances.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Prototype for Fintech Applications**: Developers can use this as a starting point or prototype for more complex fintech applications.
 
-### `npm run build`
+## Screenshots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Login Dialog
+![Login Dialog](./public/readme/login.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Register Dialog
+![Register Dialog](./public/readme/register.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Deposit Flow
+![Adding money](./public/readme/deposit/pre_deposit.png)
+![Added money](./public/readme/deposit/post_deposit.png)
 
-### `npm run eject`
+### Withdraw Flow
+![Withdrawing money](./public/readme/withdraw/pre_withdraw.png)
+![Money withdrawn](./public/readme/withdraw/post_withdraw.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Technology Stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- React
+- TypeScript
+- Shadcn UI Components
+- In-memory data storage (simulated database)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Future Enhancements
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Implement backend API for real data persistence
+- Add transaction history feature
+- Implement multi-currency support
+- Add user profile management
+- Enhance security features (e.g., two-factor authentication)
